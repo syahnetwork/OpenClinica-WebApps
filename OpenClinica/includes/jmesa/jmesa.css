@@ -1,0 +1,61 @@
+/*
+ * - KK 20080513 : Added ".jmesa .header" to resolve conflict with out Own CSS
+ * - KK 20080513 : Changed ".jmesa caption" to conform with OC colors
+ * - KK 20090610 : Changed ".jmesa .header td" Added  background-image: none; to resolve conflict with .header in styles.css
+ * - KK 20090618 : Added new configuration to support popups inside the table rows. Look for same comment below.
+ * - KK 20091201 : Changed .jmesa .odd td,.jmesa .even td and .jmesa .highlight td to fix IE7 issues
+ */
+
+.jmesa {
+    margin: 0;
+    padding: 0;
+}
+
+.jmesa caption {
+    caption-side: top;
+    /*color: #444444;*/
+    color: #D4A718;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.toolbar table {
+    margin-right: auto;
+    margin-left: 0px;
+}
+
+.jmesa .toolbar td {
+    padding: 0px 1px 0px 1px;
+}
+
+.jmesa .toolbar .pageNumber {
+    font-size: 13px;
+    font-weight: bold;
+    color: #c4634d;
+}
+
+.jmesa .toolbar .pageNumber a {
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+}
+
+.jmesa .toolbar img {
+    border:0px;
+}
+
+.jmesa .filter td {
+    padding: 2px 2px 3px 2px;
+}
+
+.jmesa .tbody input {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
