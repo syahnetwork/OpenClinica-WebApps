@@ -528,10 +528,7 @@
                 #sidebar_Instructions_open {
                     display: none;
                 }
-
-                #sidebar_Info_open {
-                    display: table-row;
-                }
+                
             </style>
 
             <script>
